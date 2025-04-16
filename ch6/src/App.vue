@@ -1,11 +1,14 @@
 <script setup>
+import ByeWorld from './components/ByeWorld.vue';
+
   const name = 'Yogesh'
 </script>
 
 <template>
   <div>
-    <h1>Local Registration by {{ name }}</h1>
+    <h1>Global Registration by {{ name }}</h1>
     <HelloWorld/>
+    <ByeWorld/>
   </div>
 </template>
 
